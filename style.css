@@ -39,30 +39,6 @@ a {
   justify-content: flex-start; /* Allinea in alto */
 }
 
-.portfolio-list {
-  list-style: none;
-  padding: 0;
-  margin: 30px 0 0 0;
-  text-align: center;
-}
-
-.portfolio-list li {
-  margin: 10px 0;
-}
-
-.portfolio-list a {
-  color: #041c35;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  transition: color 0.2s;
-}
-
-.portfolio-list a:hover {
-  color: #f2f2f2;
-}
-
-/* Add to style.css */
 .gallery {
   display: flex;
   flex-wrap: wrap;
