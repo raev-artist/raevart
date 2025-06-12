@@ -2,27 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Mono', monospace;
-  background-color: #09607a; /* Colore sfondo */
-  color: #f2f2f2; /* Colore del testo */
+  background-color: #09607a;
+  color: #f2f2f2;
 }
 
 .container {
+  justify-content: flex-start;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Altezza del contenitore per centrare il contenuto */
+  height: 100vh;
 }
 
 h2 {
   margin-top: 100px;
   padding: 10px;
   text-align: center;
-  font-size: 30px; /* Dimensione più grande per la prima scritta */
+  font-size: 30px;
 }
 
 p {
-  margin: 20px 0; /* Aumenta la spaziatura verticale tra i link */
+  margin: 10px 0;
   padding: 0;
   text-align: center;
   font-size: 16px;
@@ -30,13 +31,8 @@ p {
 }
 
 a {
-  color: #041c35; /* Colore del link */
-  text-decoration: none; /* Rimuovi la sottolineatura del link */
-}
-
-/* Regola per posizionare a un terzo della pagina verticalmente */
-.container {
-  justify-content: flex-start; /* Allinea in alto */
+  color: #041c35;
+  text-decoration: none;
 }
 
 .gallery {
