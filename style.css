@@ -53,7 +53,8 @@ a {
 footer {
     position: fixed;
     bottom: 3vw;
-    right: 5vw;
+    right: 50vw;
+    transform: translate(-50%, 0);
     background-color: #09607a;
     padding: 5px;
     justify-content: center;
