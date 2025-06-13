@@ -14,30 +14,6 @@ body {
   height: 100vh;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  position:relative;
-}
-
-.title h2 {
-  margin: 0;
-  padding: 10px 0;
-  font-size: 28px;
-  text-align: center;
-}
-
-.title small {
-  font-size: 14px;
-  font-weight: bold;
-  position:absolute;
-  right:0px;
-}
-
 h2 {
   margin-top: 50px;
   padding: 10px;
