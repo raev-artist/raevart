@@ -50,30 +50,6 @@ a {
   text-decoration: none;
 }
 
-/* Add to style.css */
-.title-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  gap: 15px;
-}
-
-.title-row h2 {
-  margin: 0;
-  padding: 10px 0;
-  font-size: 28px;
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.title-row small {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 15px;
-}
-
 footer {
     position: fixed;
     bottom: 3vw;
