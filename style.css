@@ -56,6 +56,7 @@ footer {
     right: 7vw;
     background-color: #09607a;
     padding: 5px;
+    justify-content: center;
     text-align: center;
 }
 
