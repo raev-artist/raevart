@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Mono', monospace;
-  background-color: #09607a; /* Colore sfondo */
-  color: #f2f2f2; /* Colore del testo */
+  background-color: #09607a;
+  color: #f2f2f2;
 }
 
 .container {
@@ -11,21 +11,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Altezza del contenitore per centrare il contenuto */
+  height: 100vh;
 }
 
 h2 {
   margin-top: 50px;
   padding: 10px;
   text-align: center;
-  font-size: 28px; /* Dimensione più grande per la prima scritta */
+  font-size: 28px;
 }
 
 p {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 18px; /* Dimensione più piccola per la seconda scritta */
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -33,7 +33,7 @@ p.temporary {
   margin-top: 150px;
   padding: 10px;
   text-align: center;
-  font-size: 16px; /* Dimensione più piccola per la seconda scritta */
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -41,13 +41,13 @@ p.temporary2 {
   margin-top: 0;
   padding: 0;
   text-align: center;
-  font-size: 16px; /* Dimensione più piccola per la seconda scritta */
+  font-size: 16px;
   font-weight: bold;
 }
 
 a {
-  color: #041c35; /* Colore del link */
-  text-decoration: none; /* Rimuovi la sottolineatura del link */
+  color: #041c35;
+  text-decoration: none;
 }
 
 footer {
@@ -56,15 +56,17 @@ footer {
     right: 7vw;
     background-color: #09607a;
     padding: 5px;
+    text-align: center;
 }
 
 small {
   font-size: 14px;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* Regola per posizionare a un terzo della pagina verticalmente */
 .container {
-  justify-content: flex-start; /* Allinea in alto */
+  justify-content: flex-start;
 }
 
 body {
