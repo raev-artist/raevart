@@ -14,11 +14,24 @@ body {
   height: 100vh;
 }
 
-h2 {
+.title {
+  position: relative;
+  display: inline-block;
   margin-top: 50px;
+}
+
+h2 {
   padding: 10px;
   text-align: center;
   font-size: 28px;
+}
+
+span {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-left: 10px;
+  white-space: nowrap;
 }
 
 p {
