@@ -89,10 +89,11 @@ small {
 .photo {
   margin: 15px;
   text-align: center;
+  min-width: 30%;
 }
 
 .photo img {
-  max-width: 300px;
-  max-height: 200px;
+  max-width: 30px;
+  max-height: 20px;
   border-radius: 8px;
 }
