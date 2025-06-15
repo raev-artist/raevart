@@ -94,6 +94,5 @@ small {
 
 .photo img {
   border-radius: 8px;
-  min-width: 25%;
-  max-width: 1920px;
+  max-width: 320px;
 }
