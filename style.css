@@ -93,7 +93,5 @@ small {
 }
 
 .photo img {
-  max-width: 30px;
-  max-height: 20px;
   border-radius: 8px;
 }
