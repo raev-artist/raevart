@@ -113,7 +113,12 @@ small {
   min-width: 45%;
 }
 
-.photo img {
+.photo-ground img {
+  border-radius: 8px;
+  max-width: 320px;
+}
+
+.photo-work img {
   border-radius: 8px;
   max-width: 320px;
 }
