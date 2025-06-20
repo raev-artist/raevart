@@ -110,7 +110,7 @@ small {
 .photo-work {
   margin: 15px;
   text-align: center;
-  min-width: 45%;
+  min-width: 43%;
 }
 
 .photo-ground img {
@@ -119,6 +119,6 @@ small {
 }
 
 .photo-work img {
-  border-radius: 8px;
+  border-radius: 16px;
   max-width: 320px;
 }
