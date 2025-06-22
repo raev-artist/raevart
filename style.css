@@ -120,7 +120,7 @@ small {
 }
 
 .photo-work img {
-  border-radius: 60px;
+  border-radius: 15% / 20%;
   max-width: 385px;
   width: 100%;
 }
